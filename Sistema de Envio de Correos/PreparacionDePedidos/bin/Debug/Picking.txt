@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<html>
+<head>
+<style type="text/css">
+#contenedor{
+	font-family: "Arial Narrow";
+	font-size: 10px;
+	height: 700px;
+	width: 520px;
+	/*border: 1px solid #CCC;*/
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	}
+#logo{
+	height: 80px;
+	width: 200px;
+	float:left;
+}
+
+#titulo{
+	height: 60px;
+	width: 300px;
+	float:left;
+	padding-top: 20px;
+	}
+#titulo h1{
+	font-family: "Arial Narrow";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#cabecera{
+	height: 110px;
+	width: 490px;
+	float:left;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-top-style: double;
+	border-bottom-style: double;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+#cabecera h1{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	color:#3F4041;
+	font-style: normal;
+	font-weight: normal;
+}
+#cabecera span{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	color:#F00;
+	font-style: normal;
+	font-weight: bold;
+}
+#solicitud{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: normal;
+	float:left;
+	width: 500px;
+	padding-top: 25px;
+	border-bottom-color: #CCC;
+}
+#solicitud tr{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: normal;
+	color:#3F4041;
+	float:left;
+	width:500px;
+	font-weight: bold;
+	font-style: normal;
+	list-style:none;
+}
+
+#solicitud td{
+	width: 320px;
+	height: 23px;
+}
+
+#solicitud h1{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	color:#3F4041;
+	font-style: normal;
+	font-weight: normal;
+}
+#abajo h2{
+	color: #7A7C7C;
+	font-size: 14px;
+	height: 5px;
+}
+#abajo h1{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	color:#3F4041;
+	font-style: normal;
+	font-weight: normal;
+}
+#abajo{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: normal;
+	float:left;
+	width: 500px;
+	color:#3F4041;
+	font-style: normal;
+	border-top-width: 3px;
+	border-top-style: none;
+	border-top-color: #CCC;
+}
+#abajo table{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	width: 640px;
+	color:#3F4041;
+	font-style: normal;
+	font-weight: normal;
+}
+#abajo tr{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: normal;
+	color:#3F4041;
+	float:left;
+	width:500px;
+	font-weight: bold;
+	font-style: normal;
+	list-style:none;
+}
+
+#abajo td{
+	width: 220px;
+	height: 23px;
+}
+#abajo a{
+	font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: bold;
+	color: #336;
+}
+
+#abajo h3{
+	font-family: "Arial Narrow";
+	font-size: 18px;
+	color: #999;
+	font-style: normal;
+}
+ 
+#abajo span{
+	font-family: "Arial Narrow";
+	font-size: 16px;
+	color: #333;
+}
+</style>
+</head>
+
+<body>
+<div id='contenedor'><br>
+<br><img src='cid:titulo'><br><br> 
+<div id='cabecera'><br><br>
+<h1> OrderBy informa los saldos de picking no confirmados.</h1><br></div><br>
+<div id="abajo"><br>
+<h3><span>NOTA: </span>Este correo es enviado automaticamente, por favor no responder este mensaje. </h3>
+<h3><span>NOTA: </span>Este documento esta sujeto a revision . </h3> 
+</div>
+
+</body>
+</html>
+

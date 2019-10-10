@@ -1,0 +1,135 @@
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+C:\Users\programador\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.config
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.application
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.ResolveComReference.cache
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form2.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form1.resources
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.application
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+C:\Users\Victor alejandro\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.config
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.application
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form2.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form1.resources
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.application
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+C:\Users\pc\Desktop\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.config
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.ResolveComReference.cache
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.config
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.application
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form2.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form1.resources
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\pc\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.application
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.application
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form2.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form1.resources
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe.manifest
+C:\Users\Programacion\Desktop\prg\PreparacionDePedidos\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.application
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.config
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.ResolveComReference.cache
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.xml
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.pdb
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe.manifest
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.application
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.exe
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.pdb
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\bin\Debug\PreparacionDePedidos.xml
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbprojResolveAssemblyReference.cache
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form2.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosOrden.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Pedidos.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosDetalle.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_PedidosTerminados.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_ProductosCliente.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Frm_Principal.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Resources.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.Web.Form1.resources
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.vbproj.GenerateResource.Cache
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.exe.manifest
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\PreparacionDePedidos_07\PreparacionDePedidos\obj\x86\Debug\PreparacionDePedidos.application

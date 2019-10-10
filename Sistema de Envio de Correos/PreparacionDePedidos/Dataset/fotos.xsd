@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="fotos" targetNamespace="http://tempuri.org/fotos.xsd" xmlns:mstns="http://tempuri.org/fotos.xsd" xmlns="http://tempuri.org/fotos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="fotos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="fotos" msprop:Generator_UserDSName="fotos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="fotografias" msprop:Generator_TableClassName="fotografiasDataTable" msprop:Generator_TableVarName="tablefotografias" msprop:Generator_TablePropName="fotografias" msprop:Generator_RowDeletingName="fotografiasRowDeleting" msprop:Generator_RowChangingName="fotografiasRowChanging" msprop:Generator_RowEvHandlerName="fotografiasRowChangeEventHandler" msprop:Generator_RowDeletedName="fotografiasRowDeleted" msprop:Generator_UserTableName="fotografias" msprop:Generator_RowChangedName="fotografiasRowChanged" msprop:Generator_RowEvArgName="fotografiasRowChangeEvent" msprop:Generator_RowClassName="fotografiasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Imagen1" msprop:Generator_ColumnVarNameInTable="columnImagen1" msprop:Generator_ColumnPropNameInRow="Imagen1" msprop:Generator_ColumnPropNameInTable="Imagen1Column" msprop:Generator_UserColumnName="Imagen1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Imagen2" msprop:Generator_ColumnVarNameInTable="columnImagen2" msprop:Generator_ColumnPropNameInRow="Imagen2" msprop:Generator_ColumnPropNameInTable="Imagen2Column" msprop:Generator_UserColumnName="Imagen2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Imagen3" msprop:Generator_ColumnVarNameInTable="columnImagen3" msprop:Generator_ColumnPropNameInRow="Imagen3" msprop:Generator_ColumnPropNameInTable="Imagen3Column" msprop:Generator_UserColumnName="Imagen3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Imagen4" msprop:Generator_ColumnVarNameInTable="columnImagen4" msprop:Generator_ColumnPropNameInRow="Imagen4" msprop:Generator_ColumnPropNameInTable="Imagen4Column" msprop:Generator_UserColumnName="Imagen4" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

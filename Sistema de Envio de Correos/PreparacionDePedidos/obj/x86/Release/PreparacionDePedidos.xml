@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PreparacionDePedidos
+</name>
+</assembly>
+<members>
+<member name="T:PreparacionDePedidos.Web.Ds_Imagenes.ImagenesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.Ds_Imagenes.ImagenesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.Ds_Imagenes.ImagenesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.Ds_Imagenes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.fotos.fotografiasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.fotos.fotografiasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.fotos.fotografiasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.fotos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1373576845_tick_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1381425009_application_view_detail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1381425049_stock_view_details_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1382397555_button_cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1384482821_next">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1384482919_previous">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1384802441_one_finger">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1384802501_order">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources._1384802636_flag_finish">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources.blanco">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources.Hst_Arriendo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PreparacionDePedidos.Web.My.Resources.Resources.img_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:PreparacionDePedidos.Web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

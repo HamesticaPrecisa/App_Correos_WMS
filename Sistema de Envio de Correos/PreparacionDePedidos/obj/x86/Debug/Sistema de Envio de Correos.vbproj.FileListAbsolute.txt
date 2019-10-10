@@ -1,0 +1,545 @@
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+\\192.168.1.164\respaldo informacion\Respaldo Darwin\Sistema de Envio de Correos v1.2\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v1.3\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v02.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v14.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v15.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v21.06.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v04.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v13.07.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v18.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v24.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Informes\Preparación Versiones\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v25.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\pc\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v26.08.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v28.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v29.12.2016\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos v09.01.2017\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos - Externo\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\EjecutarEnvio - Externo\EjecutarEnvio\bin\Debug\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\Sistema de Envio de Correos1\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.pdb
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosDetalle.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosTerminados.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_ProductosCliente.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Principal.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Resources.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form1.resources
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.GenerateResource.Cache
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Desktop\prg\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
