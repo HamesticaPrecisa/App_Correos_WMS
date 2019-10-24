@@ -22,6 +22,12 @@ Public Class Conexion
         Usuario = "sa"
         Clave = "precisa"
 
+        Ip = "localhost"
+        Base_wms = "precisa"
+        Base_fac = "precisa"
+        Usuario = "sa"
+        Clave = "sa*2019"
+
         'CONEXION EXTERNA
         'Ip = "192.168.10.150"
         'Ip = "186.64.109.246"

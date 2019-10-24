@@ -133,7 +133,7 @@ Public Class Frm_Principal
 
 
         If tablaCorreoInterno.Rows.Count > 0 Then
-            enviarCorreosDiarios()
+            'enviarCorreosDiarios()
             barra_envio.Increment(-100)
         End If
 
@@ -142,7 +142,7 @@ Public Class Frm_Principal
         Dim tablaCorreo As DataTable = ListarTablasSQL(SQLCorreoProgramado)
 
         If tablaCorreo.Rows.Count > 0 Then
-            enviarCorreosAutomaticos()
+            'enviarCorreosAutomaticos()
             barra_envio.Increment(-100)
         End If
 
@@ -151,7 +151,7 @@ Public Class Frm_Principal
         Dim dtResp As DataTable = ListarTablasSQL(sqlExiPedLocSalErr)
 
         If (dtResp.Rows.Count > 0) Then
-            enviarCorreosLocalPedidoSaldo()
+            'enviarCorreosLocalPedidoSaldo()
             barra_envio.Increment(-100)
         End If
         'Fin modificacion HAmestica 211218. Pedidos Locales saldo informado incorrecto

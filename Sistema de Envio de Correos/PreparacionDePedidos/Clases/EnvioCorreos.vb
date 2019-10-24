@@ -4049,4 +4049,139 @@ Public Class EnvioCorreos
         End Try
         Return ""
     End Function
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIO DEL CORREO CON EL INFORME DE ESTADO DE TUNELES
+    '
+    Public Function EnviarInformeTuneles(ByVal inf_cod As String) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim correo As New System.Net.Mail.MailMessage
+        Dim adjunto As System.Net.Mail.Attachment
+        Dim EnviarEmitidos As Boolean
+
+
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        With correo
+
+            Dim sql As String = "SELECT prg_mail FROM informes_programa WHERE prg_inf_cod='" + inf_cod + "' AND prg_emp='0'"
+
+            Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+
+
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+
+            Dim uu As String = tablaInterno.Rows(0)(0).ToString().Trim
+
+            If QuitarCaracteres(uu.ToString()).Length < uu.ToString().Length Then
+                Dim correo_electronico As String = ""
+                For i As Integer = 0 To uu.Length - 1
+                    If uu.Chars(i) <> ";" Then
+                        correo_electronico = correo_electronico + uu.Chars(i)
+                    Else
+                        .To.Add(correo_electronico)
+                        correo_electronico = ""
+                    End If
+
+                Next
+                .To.Add(correo_electronico)
+            End If
+
+            .Subject = "Documentos Emitidos Día " + devuelve_fecha2(buscaHoraServidor().AddDays(-1))
+            .IsBodyHtml = True
+            .AlternateViews.Add(BodyEstadoTuneles())
+            .BodyEncoding = System.Text.Encoding.UTF8
+
+            Dim ruta As String = Retorna_Ruta_ArchivoEmitidos()
+            If ruta = "" Then
+                Return True
+                Exit Function
+            End If
+            adjunto = New System.Net.Mail.Attachment(ruta)
+            .Attachments.Add(adjunto)
+        End With
+
+        Try
+            smtp.Send(correo)
+
+            Dim sql As String = " INSERT INTO DocumentosEnviados(Denv_seccion, Denv_fecha, denv_hora) " +
+                                " VALUES ('EMITIDOS','" + devuelve_fecha2(buscaHoraServidor().AddDays(-1)) + "','" + DevuelveHora() + "')"
+            MovimientoSQL(sql)
+
+            EnviarEmitidos = True
+        Catch ex As Exception
+            If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
+                Dim sql As String = " INSERT INTO DocumentosEnviados(Denv_seccion, Denv_fecha, denv_hora) " +
+                                " VALUES ('EMITIDOS','" + devuelve_fecha2(buscaHoraServidor().AddDays(-1)) + "','" + DevuelveHora() + "')"
+                MovimientoSQL(sql)
+
+                EnviarEmitidos = True
+            Else
+                EnviarEmitidos = False
+            End If
+        End Try
+
+        Return EnviarEmitidos
+
+    End Function
+
+    '
+    '       VES OCT 2019
+    '       CORREO DE ESTADO DE TUNELES
+    '
+    Private Function BodyEstadoTuneles() As AlternateView
+
+        Dim archivo As String = ArchivoAString(Application.StartupPath + "\estadoTuneles.txt")
+        Dim hora As String = ""
+        Dim fecha As String = ""
+        Dim observacion As String = ""
+        Dim transporte As String = ""
+        Dim destino As String = ""
+        Dim datos As String = "SELECT cam_descr, informeTuneles FROM vwTueneles WHERE cam_tipo = 2 ORDER BY cam_codi"
+        Dim tablaDatos As DataTable = ListarTablasSQL(datos)
+        If tablaDatos.Rows.Count > 0 Then
+            hora = tablaDatos.Rows(0)(0).ToString()
+            fecha = tablaDatos.Rows(0)(1).ToString()
+            observacion = tablaDatos.Rows(0)(2).ToString()
+            transporte = tablaDatos.Rows(0)(3).ToString()
+            destino = tablaDatos.Rows(0)(4).ToString()
+        End If
+
+        Dim html = "<h1>ESTADO DE TUNELES</h1>" +
+                        "<div id='tuneles'><div>" +
+                        "<table border='0'>" +
+                        "<tr>" +
+                        "<th>Tunel</th>" +
+                        "<th>Estado</th>" +
+                        "</tr>"
+        For Each row As DataRow In tablaDatos.Rows
+            html = html + "<tr>" +
+                            "<td>" + row("cam_descr") + "</td>" +
+                            "<td>" + row("informeTuneles") + "</td>" +
+                          "</tr>"
+        Next
+        html = html + "</table>"
+
+        Dim archivo2 As String = ArchivoAString(Application.StartupPath + "\EstadoTuneles2.txt")
+
+        archivo = archivo + html + archivo2
+
+        Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(archivo, Encoding.UTF8, MediaTypeNames.Text.Html)
+        Dim htmlView2 As AlternateView = AlternateView.CreateAlternateViewFromString(archivo, Encoding.UTF8, MediaTypeNames.Text.Html)
+        Dim cabecera As LinkedResource = New LinkedResource(Application.StartupPath + "\tituloEstadoTUnel.jpg", MediaTypeNames.Image.Jpeg)
+        cabecera.ContentId = "informeTuneles"
+
+        htmlView.LinkedResources.Add(cabecera)
+
+        Return htmlView
+
+    End Function
 End Class
