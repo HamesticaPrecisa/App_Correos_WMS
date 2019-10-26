@@ -121,39 +121,116 @@ Public Class Frm_Principal
     End Sub
 
     Private Sub comprobarExistencia()
-        '*********************************************************************
-        'SE COMPRUEBA SI EXISTEN CORREOS PROGRAMADOS O INTERNOS PARA ESTA HORA
-        '*********************************************************************
-        Dim campo As String = verificarDia()
-        retornarHoras() 'Funcion que agrega un 0 al principio de la hor asi es inferior a 4 digitos
-
-        'se consulta por los correos activos, por dia, si el dia esta en "si" y si la hora corresponde
-        Dim SQLCorreoInterno As String = "SELECT prg_estado FROM informes_programa WHERE prg_estado ='Activado' AND prg_emp='0' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        Dim tablaCorreoInterno As DataTable = ListarTablasSQL(SQLCorreoInterno)
 
 
-        If tablaCorreoInterno.Rows.Count > 0 Then
-            'enviarCorreosDiarios()
-            barra_envio.Increment(-100)
+        '
+        '       VES OCT 2019
+        '       SE REPROGRAMO COMPLETAMENTE ESTE METODO PARA ESTANDARIZAR
+        '       EL MAJEJO DE LA FRECUENCIA TANTO EN INFORMES DE CLIENTES
+        '       COMO EN INFORMES INTERNOS
+        '
+
+        'env.EnviarInformeTuneles("22")
+        'Return
+
+
+        '
+        '       VES OCT 2019
+        '       OBTENEMOS UNA LISTA DE INFORMES EJECUTABLES, SEGUN LA FECHA
+        '       Y HORA ACTUAL, CONFIGURACION DE FRECUENCIA DE LOS INFORMES
+        '       Y LA FECHA DE ULTIMA EJECUCION DE CADA PROGRAMA DE INFORME.
+        '
+
+        Dim informes As DataTable = ListarTablasSQL("SELECT * FROM vwInformesPrograma ORDER BY prg_emp, prg_inf_cod, inf_pro_cod")
+        If informes.Rows.Count = 0 Then  ' NADA QUE EJECUTAR?  FINALIZAMOS
+            lblenvio.Visible = False
+            barra_envio.Visible = False
+            Console.WriteLine(DateTime.Now())
+            Application.Exit()
+            Me.Close()
         End If
 
-        'Se consulta por los correos activos y automaticos 
-        Dim SQLCorreoProgramado As String = "SELECT prg_estado FROM informes_programa WHERE prg_estado ='Activado' AND prg_emp='1' GROUP BY prg_estado"
-        Dim tablaCorreo As DataTable = ListarTablasSQL(SQLCorreoProgramado)
 
-        If tablaCorreo.Rows.Count > 0 Then
-            'enviarCorreosAutomaticos()
-            barra_envio.Increment(-100)
-        End If
+        '
+        '       VES OCT 2019
+        '       RECORREMOS LA LISTA DE INFORMES A EJECUTAR Y SE
+        '       VAN EJECUTANDO UNO POR UNO. LOS METODOS ORIGINALES
+        '       enviarCorreosDiarios y  enviarCorreosAutomaticos
+        '       SE INTEGRARON EN UN SOLO METODO procesarInforme.
+        '
+        lblenvio.Visible = True
+        barra_envio.Visible = True
+
+        barra_envio.Value = 0
+        barra_envio.Maximum = informes.Rows.Count + 1
+        For Each row As DataRow In informes.Rows
+            Dim inf_cod As Integer = CInt(row("prg_inf_cod"))
+            Dim prg_cod As Integer = CInt(row("inf_pro_cod"))
+            Dim prg_emp As String = row("prg_emp").ToString()
+            Dim inf_nom As String = row("inf_nom").ToString().Trim()
+            Dim prg_interv As Integer = CInt(row("prg_interv"))
+            Dim ipm_params As String = ""
+            Dim ipm_id As Integer = 0
+
+            '
+            '       SI SE TRATA DE UN INFORME MANUAL, SE OBTIENE
+            '       EL ID DE LA SIGUUIENTE ENTRADA EN LA COLA
+            '       PARA DICHO INFORME
+            '
+            If prg_interv = 4 Then
+                Dim ipm As DataTable = ListarTablasSQL("SELECT TOP 1 ipm_id, ipm_params FROM informes_manual WHERE inf_pro_cod = " + prg_cod.ToString() + " AND ipm_status = 'PENDIENTE' ORDER BY ipm_id")
+                If ipm.Rows.Count > 0 Then
+                    ipm_id = CInt(ipm.Rows(0)("ipm_id"))
+                    ipm_params = ipm.Rows(0)("ipm_params").ToString()
+                End If
+            End If
+
+
+            '
+            '       SE PROCESA EL INFORME A EJECUTAR, ACTUALIZANDO
+            '       LA FECHA/HORA DE ULTIMA EJECUCION.
+            '
+            '       SI EL INFORME ERA DE UN PROGRAMA MANUAL, SE MARCA
+            '       LA ENTRADA EN LA COLA COMO PROCESADA
+            '
+            lblenvio.Text = inf_nom
+            Try
+                If (prg_interv <> 4 Or ipm_id > 0) Then
+                    '
+                    '       EJECUTAMOS EL INFORME
+                    '
+                    procesarInforme(inf_cod, prg_cod, ipm_id, ipm_params)
+
+                    '
+                    '       ACTUALIZAMOS LA FECHA DE ULTIMA
+                    '       EJECUCION DEL INFORME
+                    '
+                    actualizarUltEjec(prg_cod)
+
+                    '
+                    '       SI SE TRATA DE UN PROGRAMA MANUAL SE
+                    '       ACTUALIZA EL ESTATUS DE LA ENTRADA 
+                    '       EB LA COLA 
+                    '
+                    If prg_interv = 4 And ipm_id > 0 Then
+                        actualizarIPM(ipm_id)
+                    End If
+                End If
+
+
+            Catch ex As Exception
+            End Try
+        Next
+
 
         'Modificacion HAmestica 211218. Pedidos Locales saldo informado incorrecto
         Dim sqlExiPedLocSalErr = "select count(ID) from V_Pedidos_Locales_Saldos_Incorrectos with(nolock)"
         Dim dtResp As DataTable = ListarTablasSQL(sqlExiPedLocSalErr)
 
         If (dtResp.Rows.Count > 0) Then
-            'enviarCorreosLocalPedidoSaldo()
-            barra_envio.Increment(-100)
+            enviarCorreosLocalPedidoSaldo()
         End If
+        barra_envio.Increment(1)
         'Fin modificacion HAmestica 211218. Pedidos Locales saldo informado incorrecto
 
         lblenvio.Visible = False
@@ -287,168 +364,93 @@ Public Class Frm_Principal
         End Try
     End Sub
 
-    Private Sub enviarCorreosDiarios()
-        Dim campo As String = verificarDia()
-        Dim SQLInforme As String
-        Dim tabla As DataTable
-        lblenvio.Visible = True
-        barra_envio.Visible = True
-        lblenvio.Text = "Enviando E-mails Diarios:"
+    '
+    '       VES OCT 2019
+    '       SE PROCESA EL INFORME SOLICITADO. ESTE METODO SIMPLIFICA
+    '       Y REFACTORIZA EL CODIGO DE LOS METODOS ENVIARCORREOSDIARIOS
+    '       Y ENVIARCORREOSAUTOMATICOS DEL CODIGO ORIGINAL
+    '
+    Private Sub procesarInforme(ByVal inf_cod As Integer, ByVal prg_cod As Integer, ByVal ipm_id As Integer, ByVal ipm_params As String)
+        Select Case inf_cod
+            Case 22
+                env.EnviarCorreoStockComercialAgrosuper()
 
-        barra_envio.Increment(5)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='22' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 12
+                CorreoPedidosHora("12")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                env.EnviarCorreoStockComercialAgrosuper() 'prg_mail codigo:22 Informe Stock Comercial Agrosuper
-            End If
-        End If
-        'barra_envio.Increment(95)
+            Case 11
+                CorreoSemanal("11")
 
-        barra_envio.Increment(10)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='12' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 10
+                CorreoPosiciones("10")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoPedidosHora("12") 'prg_mail codigo:12
-            End If
-        End If
+            Case 13
+                CorreoInformeSoportantes("13")
 
-        barra_envio.Increment(15)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='11' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 3
+                CorreoDocumentosEmitidos("3")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoSemanal("11") 'prg_mail codigo:11
-            End If
-        End If
+            Case 14
+                CorreoSinTermino("14")
 
-        barra_envio.Increment(15)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='10' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 17
+                CorreosPicking("17")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoPosiciones("10") 'prg_mail codigo:10
-            End If
-        End If
-
-        barra_envio.Increment(15)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='13' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
-
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoInformeSoportantes("13") 'prg_mail codigo:13
-            End If
-        End If
-
-        barra_envio.Increment(10)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='3' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
-
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoDocumentosEmitidos("3") 'prg_mail codigo:3
-            End If
-        End If
-
-        barra_envio.Increment(10)
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='14' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si' AND (prg_hora>='" + horaInicio + "' AND prg_hora<='" + horaLimite + "')"
-        tabla = ListarTablasSQL(SQLInforme)
-
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" And tabla.Rows(0)(1) <> "" Then
-                CorreoSinTermino("14") 'prg_mail codigo:14
-            End If
-        End If
-        barra_envio.Increment(10)
-
-        SQLInforme = "SELECT inf_est, prg_mail FROM informes, informes_programa WHERE inf_cod='17' AND inf_cod= prg_inf_cod AND prg_estado='Activado' AND " + campo + "='si'" 'NO LLEVA HORAS PARA FUNCIONAR SIEMPRE
-        tabla = ListarTablasSQL(SQLInforme)
-
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
-                CorreosPicking("17") 'prg_mail codigo:17
-            End If
-        End If
-        barra_envio.Increment(10)
-    End Sub
-
-    Private Sub enviarCorreosAutomaticos()
-        Dim SQLInforme As String
-        Dim tabla As DataTable
-
-        lblenvio.Visible = True
-        barra_envio.Visible = True
-        lblenvio.Text = "Enviando E-mails Automaticos: "
-
-        barra_envio.Increment(5)
-        SQLInforme = "SELECT inf_est,inf_cod FROM informes WHERE inf_nom='Alerta RFID'"
-        tabla = ListarTablasSQL(SQLInforme)
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
+            Case 21
                 env.EnviarCorreoAlertaRFID()
-            End If
-        End If
 
-        barra_envio.Increment(20)
-        SQLInforme = "SELECT inf_est FROM informes WHERE inf_cod='1'"
-        tabla = ListarTablasSQL(SQLInforme)
-
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
+            Case 1
                 CorreoRecepciones("1", "CLI_CRYD", "Clientes", "cli_rut") 'RECEPCION CHEKLIST DESPACHO CLI_CRYD codigo:1
                 CorreoDespacho("1", "CLI_CRYD", "Clientes", "cli_rut") 'RECEPCION CHEKLIST DESPACHO CLI_CRYD codigo:1
                 CorreoChecklist("1", "CLI_CRYD", "Clientes", "cli_rut") 'RECEPCION CHEKLIST DESPACHO CLI_CRYD codigo:1
-            End If
-        End If
 
-        barra_envio.Increment(20)
-        SQLInforme = "SELECT inf_est FROM informes WHERE inf_cod='7'"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 7
+                CorreosPedidos("7", "Mail2", "Clientes", "cli_rut")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
-                CorreosPedidos("7", "Mail2", "Clientes", "cli_rut") 'PEDIDOS PRE DESPACHO Mail2 codigo:7
-            End If
-        End If
+            Case 5
+                CorreoVencidos("5", "CLI_PVENC", "Clientes", "cli_rut")
 
-        barra_envio.Increment(20)
-        SQLInforme = "SELECT inf_est FROM informes WHERE inf_cod='5'"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 4
+                CorreoPedidosWeb("4", "cli_mail", "Clientes", "cli_rut")
 
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
-                CorreoVencidos("5", "CLI_PVENC", "Clientes", "cli_rut")  'VENCIDOS CLI_PVENC codigo:5
-            End If
-        End If
+            Case 18
+                CorreoPedidosWeb24Hrs("18")
 
-        barra_envio.Increment(20)
-        SQLInforme = "SELECT inf_est FROM informes WHERE inf_cod='4'"
-        tabla = ListarTablasSQL(SQLInforme)
+            Case 23
+                env.EnviarInformeTuneles(prg_cod)
 
-        barra_envio.Increment(10)
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
-                CorreoPedidosWeb("4", "cli_mail", "Clientes", "cli_rut")  'PEDIDOS WEB cli_mail codigo:4
-            End If
-        End If
+            Case 24
+                env.EnviarNotificacionInicioTunel(ipm_id)
 
-        barra_envio.Increment(5)
-        SQLInforme = "SELECT inf_est,inf_cod FROM informes WHERE inf_nom='Informe de Pedidos WEB < 24 Hrs.'"
-        tabla = ListarTablasSQL(SQLInforme)
-        If tabla.Rows.Count > 0 Then
-            If tabla.Rows(0)(0) = "Habilitado" Then
-                Dim CodInf = tabla.Rows(0)(1).ToString.Trim
-                CorreoPedidosWeb24Hrs(CodInf)
-            End If
-        End If
+            Case 25
+                'env.EnviarNotificacionTerminoTunel(ipm_id)
+        End Select
+
     End Sub
 
+
+
+    '
+    '       VES OCT 2019
+    '       ACTUALIZA LA FECHA DE ULTIMA EJECCION PARA EL
+    '       PROGRAMA DE INfORME INDICADO
+    '
+    Private Sub actualizarUltEjec(ByVal prg_cod As Integer)
+        Dim sql As String
+        sql = "UPDATE informes_programa SET prg_lastrun = GETDATE() WHERE inf_pro_cod = " + prg_cod.ToString()
+        MovimientoSQL(sql)
+    End Sub
+
+
+    Private Sub actualizarIPM(ByVal ipm_id As Integer)
+        Dim sql As String = "UPDATE informes_manual " +
+                            "   SET ipm_status = 'PROCESADO'," +
+                            "       ipm_fecsta = GETDATE()," +
+                            "       ipm_ususta = '050' " +
+                            " WHERE ipm_id = " + ipm_id.ToString() +
+                            "   AND ipm_status = 'PENDIENTE'"
+        MovimientoSQL(sql)
+    End Sub
 
     Private Function verificarDia()
 
@@ -822,7 +824,7 @@ Public Class Frm_Principal
         NotifyIcon1.Dispose()
     End Sub
 
-    Private Sub Timer_contar_segundos_Tick(sender As System.Object, e As System.EventArgs) Handles Timer_contar_segundos.Tick
+    Private Sub Timer_contar_segundos_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer_contar_segundos.Tick
         segundos = segundos + 1
 
         If segundos > 59 Then

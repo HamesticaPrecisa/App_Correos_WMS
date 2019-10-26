@@ -40,7 +40,7 @@ Public Class Conexion
 
     Sub conectar()
         conexion()
-        Dim cadena As String = "Data Source=" & Ip & "; initial catalog=" & Base_wms & "; USER=" & Usuario & "; PWD=" & Clave & ";"
+        Dim cadena As String = "Data Source=" & Ip & "; initial catalog=" & Base_wms & "; USER=" & Usuario & "; PWD=" & Clave & ";timeout=100;"
         Try
             If con.State = 0 Then
 

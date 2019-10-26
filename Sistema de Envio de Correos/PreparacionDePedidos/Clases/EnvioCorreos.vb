@@ -41,6 +41,8 @@ Public Class EnvioCorreos
     'Dim clavepedido As String = claveenvio
     'Dim estadoSSL As Boolean = False
 
+
+
     Public Function VerificaConexionInternet() As Boolean
         If My.Computer.Network.IsAvailable() Then
             Try
@@ -238,7 +240,7 @@ Public Class EnvioCorreos
             .Attachments.Add(adjunto)
 
         End With
-       
+
         Try
             Dim existe As String = "SELECT * FROM pedidos_enviados WHERE pedido='" + pedido_largo.ToString() + "'"
 
@@ -4055,13 +4057,19 @@ Public Class EnvioCorreos
     '       VES OCT 2019
     '       ENVIO DEL CORREO CON EL INFORME DE ESTADO DE TUNELES
     '
-    Public Function EnviarInformeTuneles(ByVal inf_cod As String) As Boolean
+    Public Function EnviarInformeTuneles(ByVal prg_cod As Integer) As Boolean
 
         Dim smtp As New System.Net.Mail.SmtpClient
         Dim correo As New System.Net.Mail.MailMessage
         Dim adjunto As System.Net.Mail.Attachment
         Dim EnviarEmitidos As Boolean
 
+
+        'puerto = 25
+        'host_mail = "mail.noiqs.com"
+        'correoenvio = "vespina@noiqs.com"
+        'claveenvio = "Randal.01"
+        'estadoSSL = False
 
         With smtp
             .Port = puerto
@@ -4072,8 +4080,7 @@ Public Class EnvioCorreos
 
         With correo
 
-            Dim sql As String = "SELECT prg_mail FROM informes_programa WHERE prg_inf_cod='" + inf_cod + "' AND prg_emp='0'"
-
+            Dim sql As String = "SELECT prg_mail FROM informes_programa WHERE inf_pro_cod=" + prg_cod.ToString()
             Dim tablaInterno As DataTable = ListarTablasSQL(sql)
 
 
@@ -4095,33 +4102,141 @@ Public Class EnvioCorreos
                 .To.Add(correo_electronico)
             End If
 
-            .Subject = "Documentos Emitidos Día " + devuelve_fecha2(buscaHoraServidor().AddDays(-1))
+            .Subject = "Estado de Túneles"
             .IsBodyHtml = True
             .AlternateViews.Add(BodyEstadoTuneles())
             .BodyEncoding = System.Text.Encoding.UTF8
 
-            Dim ruta As String = Retorna_Ruta_ArchivoEmitidos()
-            If ruta = "" Then
-                Return True
-                Exit Function
-            End If
-            adjunto = New System.Net.Mail.Attachment(ruta)
-            .Attachments.Add(adjunto)
         End With
 
         Try
             smtp.Send(correo)
 
-            Dim sql As String = " INSERT INTO DocumentosEnviados(Denv_seccion, Denv_fecha, denv_hora) " +
-                                " VALUES ('EMITIDOS','" + devuelve_fecha2(buscaHoraServidor().AddDays(-1)) + "','" + DevuelveHora() + "')"
-            MovimientoSQL(sql)
+            EnviarEmitidos = True
+        Catch ex As Exception
+            If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
+
+                EnviarEmitidos = True
+            Else
+                EnviarEmitidos = False
+            End If
+        End Try
+
+        Return EnviarEmitidos
+
+    End Function
+
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIAR NOTIFICACION POR INICIO DE TUNEL
+    '
+    Public Function EnviarNotificacionInicioTunel(ByVal ipm_id As Integer) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim correo As New System.Net.Mail.MailMessage
+        Dim adjunto As System.Net.Mail.Attachment
+        Dim EnviarEmitidos As Boolean
+
+        puerto = 25
+        host_mail = "mail.noiqs.com"
+        correoenvio = "vespina@noiqs.com"
+        claveenvio = "Randal.01"
+        estadoSSL = False
+
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        With correo
+
+            Dim sql As String = "SELECT b.prg_mail, a.ipm_params " +
+                                "  FROM informes_manual a " +
+                                " INNER JOIN informes_programa b ON b.inf_pro_cod = a.inf_pro_cod" +
+                                " WHERE a.ipm_id = " + ipm_id.ToString()
+            Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+            Dim cam_codi As String = tablaInterno.Rows(0)(1).ToString()
+
+
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+
+            Dim uu As String = tablaInterno.Rows(0)(0).ToString().Trim
+
+            If QuitarCaracteres(uu.ToString()).Length < uu.ToString().Length Then
+                Dim correo_electronico As String = ""
+                For i As Integer = 0 To uu.Length - 1
+                    If uu.Chars(i) <> ";" Then
+                        correo_electronico = correo_electronico + uu.Chars(i)
+                    Else
+                        .To.Add(correo_electronico)
+                        correo_electronico = ""
+                    End If
+
+                Next
+                .To.Add(correo_electronico)
+            End If
+
+            sql = "SELECT m.mtu_pallet, m.mtu_temp, " +
+                  "       r.fam_descr, r.drec_peso, r.cli_nomb, " +
+                  "       t.cam_descr, t.numpallets, t.het, " +
+                  "       LEFT(CONVERT(VARCHAR, t.ott_iniciotunel, 8),5) AS hora " +
+                  "    FROM vwTuneles t " +
+                  "   INNER JOIN vwMuestrasTunel m ON m.cam_unica = t.cam_unica " +
+                  "   INNER JOIN vwContenidoTuneles r ON r.ott_id = m.ott_id AND r.racd_codi = m.mtu_pallet " +
+                  "   WHERE t.cam_codi = '" + cam_codi + "'"
+            tablaInterno = ListarTablasSQL(sql)
+
+            Dim cam_descr As String = tablaInterno.Rows(0)("cam_descr").ToString().Trim()
+            Dim hora As String = tablaInterno.Rows(0)("hora").ToString()
+            Dim het As Integer = CInt(tablaInterno.Rows(0)("het"))
+            Dim NumPallets As Integer = CInt(tablaInterno.Rows(0)("numpallets"))
+            Dim html As String = String.Format("A las <big><b>{0}</b></big> se inició el proceso del túnel <big><b>{1}</b></big> " +
+                                               "con <big><b>{2}</b></big> pallets (HET: <big><b>{3}></b></big>)", hora, cam_descr, NumPallets, het)
+            html = html + "<table style='margin-top: 20px;' border='0'>" +
+                          "<tr> " +
+                          "  <th style='padding: 5px;background-color: gray;color:black;'>PALLET No</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:black;'>PRODUCTO</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:black;'>KILOS</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:black;'>TEMP</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:black;'>CLIENTE</th>" +
+                          "</tr>"
+
+            For Each row As DataRow In tablaInterno.Rows
+                html = html + String.Format("<tr> " +
+                                            "  <td {5}>{0}</td>" +
+                                            "  <td {5}>{1}</td>" +
+                                            "  <td {5}>{2}</td>" +
+                                            "  <td {5}>{3}</td>" +
+                                            "  <td {5}>{4}</td>" +
+                                            "</tr>",
+                                            row("mtu_pallet"),
+                                            row("fam_descr"),
+                                            row("drec_peso"),
+                                            row("mtu_temp"),
+                                            row("cli_nomb"),
+                                            "style='padding: 5px;background-color: gray;color:black;'")
+            Next
+            html = html + "</table>"
+
+            Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(html, Encoding.UTF8, MediaTypeNames.Text.Html)
+
+            .Subject = "Túnel iniciado"
+            .IsBodyHtml = True
+            .AlternateViews.Add(htmlView)
+            .BodyEncoding = System.Text.Encoding.UTF8
+
+        End With
+
+        Try
+            smtp.Send(correo)
 
             EnviarEmitidos = True
         Catch ex As Exception
             If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
-                Dim sql As String = " INSERT INTO DocumentosEnviados(Denv_seccion, Denv_fecha, denv_hora) " +
-                                " VALUES ('EMITIDOS','" + devuelve_fecha2(buscaHoraServidor().AddDays(-1)) + "','" + DevuelveHora() + "')"
-                MovimientoSQL(sql)
 
                 EnviarEmitidos = True
             Else
@@ -4139,33 +4254,37 @@ Public Class EnvioCorreos
     '
     Private Function BodyEstadoTuneles() As AlternateView
 
-        Dim archivo As String = ArchivoAString(Application.StartupPath + "\estadoTuneles.txt")
+        Dim archivo As String = ArchivoAString(Application.StartupPath + "\EstadoTuneles1.txt")
         Dim hora As String = ""
         Dim fecha As String = ""
         Dim observacion As String = ""
         Dim transporte As String = ""
         Dim destino As String = ""
-        Dim datos As String = "SELECT cam_descr, informeTuneles FROM vwTueneles WHERE cam_tipo = 2 ORDER BY cam_codi"
+        Dim datos As String = "SELECT cam_descr, informeTuneles, estado FROM Tuneles1 WHERE cam_tipo = 2 ORDER BY cam_codi"
         Dim tablaDatos As DataTable = ListarTablasSQL(datos)
-        If tablaDatos.Rows.Count > 0 Then
-            hora = tablaDatos.Rows(0)(0).ToString()
-            fecha = tablaDatos.Rows(0)(1).ToString()
-            observacion = tablaDatos.Rows(0)(2).ToString()
-            transporte = tablaDatos.Rows(0)(3).ToString()
-            destino = tablaDatos.Rows(0)(4).ToString()
-        End If
 
         Dim html = "<h1>ESTADO DE TUNELES</h1>" +
                         "<div id='tuneles'><div>" +
                         "<table border='0'>" +
                         "<tr>" +
-                        "<th>Tunel</th>" +
-                        "<th>Estado</th>" +
+                        "<th style='padding: 5px;background-color: gray;color:black;'>Tunel</th>" +
+                        "<th style='padding: 5px;background-color: gray;color:black;'>Estado</th>" +
                         "</tr>"
+
+        Dim bgcolor As String = "white"
+        Dim fgcolor As String = "black"
         For Each row As DataRow In tablaDatos.Rows
+            bgcolor = "white"
+            fgcolor = "black"
+            If CInt(row("estado")) > 400 Then
+                bgcolor = "red"
+                fgcolor = "yellow"
+            End If
+
+
             html = html + "<tr>" +
-                            "<td>" + row("cam_descr") + "</td>" +
-                            "<td>" + row("informeTuneles") + "</td>" +
+                            "<td style='padding: 10px;background-color: " + bgcolor + ";color:" + fgcolor + ";'>" + row("cam_descr") + "</td>" +
+                            "<td style='padding: 10px;background-color: " + bgcolor + ";color:" + fgcolor + ";'>" + row("informeTuneles") + "</td>" +
                           "</tr>"
         Next
         html = html + "</table>"
@@ -4175,9 +4294,8 @@ Public Class EnvioCorreos
         archivo = archivo + html + archivo2
 
         Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(archivo, Encoding.UTF8, MediaTypeNames.Text.Html)
-        Dim htmlView2 As AlternateView = AlternateView.CreateAlternateViewFromString(archivo, Encoding.UTF8, MediaTypeNames.Text.Html)
-        Dim cabecera As LinkedResource = New LinkedResource(Application.StartupPath + "\tituloEstadoTUnel.jpg", MediaTypeNames.Image.Jpeg)
-        cabecera.ContentId = "informeTuneles"
+        Dim cabecera As LinkedResource = New LinkedResource(Application.StartupPath + "\EstadoTuneles.jpg", MediaTypeNames.Image.Jpeg)
+        cabecera.ContentId = "titulo"
 
         htmlView.LinkedResources.Add(cabecera)
 
