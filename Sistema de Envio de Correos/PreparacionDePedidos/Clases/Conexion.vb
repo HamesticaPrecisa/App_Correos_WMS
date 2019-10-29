@@ -22,6 +22,7 @@ Public Class Conexion
         Usuario = "sa"
         Clave = "precisa"
 
+        'CONEXTION VICTOR
         Ip = "localhost"
         Base_wms = "precisa"
         Base_fac = "precisa"

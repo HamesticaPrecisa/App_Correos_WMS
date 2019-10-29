@@ -229,14 +229,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaEnvioCorreos.exe" size="24866304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaEnvioCorreos.exe" size="24869888">
       <assemblyIdentity name="SistemaEnvioCorreos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>7c8e/+rtq1xx84ukJOBCJ+RwTAk=</dsig:DigestValue>
+        <dsig:DigestValue>wpljzHpUM2XpxhRVgy/loxmv1dU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

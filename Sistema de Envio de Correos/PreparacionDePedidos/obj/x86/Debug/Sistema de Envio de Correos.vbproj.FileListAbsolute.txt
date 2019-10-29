@@ -549,7 +549,6 @@ Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDeP
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
-Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Form2.resources
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_PedidosOrden.resources
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.Web.Frm_Pedidos.resources

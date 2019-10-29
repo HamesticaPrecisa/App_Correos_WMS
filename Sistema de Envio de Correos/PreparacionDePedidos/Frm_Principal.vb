@@ -164,9 +164,7 @@ Public Class Frm_Principal
         barra_envio.Value = 0
         barra_envio.Maximum = informes.Rows.Count + 1
         For Each row As DataRow In informes.Rows
-            Dim inf_cod As Integer = CInt(row("prg_inf_cod"))
             Dim prg_cod As Integer = CInt(row("inf_pro_cod"))
-            Dim prg_emp As String = row("prg_emp").ToString()
             Dim inf_nom As String = row("inf_nom").ToString().Trim()
             Dim prg_interv As Integer = CInt(row("prg_interv"))
             Dim ipm_params As String = ""
@@ -199,7 +197,7 @@ Public Class Frm_Principal
                     '
                     '       EJECUTAMOS EL INFORME
                     '
-                    procesarInforme(inf_cod, prg_cod, ipm_id, ipm_params)
+                    procesarInforme(row, ipm_id, ipm_params)
 
                     '
                     '       ACTUALIZAMOS LA FECHA DE ULTIMA
@@ -370,7 +368,10 @@ Public Class Frm_Principal
     '       Y REFACTORIZA EL CODIGO DE LOS METODOS ENVIARCORREOSDIARIOS
     '       Y ENVIARCORREOSAUTOMATICOS DEL CODIGO ORIGINAL
     '
-    Private Sub procesarInforme(ByVal inf_cod As Integer, ByVal prg_cod As Integer, ByVal ipm_id As Integer, ByVal ipm_params As String)
+    Private Sub procesarInforme(ByRef prog As DataRow, ByVal ipm_id As Integer, ByVal ipm_params As String)
+        Dim inf_cod As Integer = CInt(prog("prg_inf_cod"))
+        Dim prg_cod As Integer = CInt(prog("inf_pro_cod"))
+
         Select Case inf_cod
             Case 22
                 env.EnviarCorreoStockComercialAgrosuper()
@@ -417,13 +418,25 @@ Public Class Frm_Principal
                 CorreoPedidosWeb24Hrs("18")
 
             Case 23
-                env.EnviarInformeTuneles(prg_cod)
+                'env.EnviarInformeTuneles(prg_cod)
 
             Case 24
                 env.EnviarNotificacionInicioTunel(ipm_id)
 
             Case 25
-                'env.EnviarNotificacionTerminoTunel(ipm_id)
+                env.EnviarNotificacionFinalTunel(ipm_id)
+
+            Case 26
+                env.EnviarNotificacionRecepcionTardiaTunel(prog)
+
+            Case 27
+                env.EnviarAlertasInicioTunel(prog, 1)
+
+            Case 28
+                env.EnviarAlertasInicioTunel(prog, 2)
+
+            Case 29
+                env.EnviarAlertasInicioTunel(prog, 3)
         End Select
 
     End Sub
