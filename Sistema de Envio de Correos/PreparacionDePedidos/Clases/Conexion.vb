@@ -23,11 +23,11 @@ Public Class Conexion
         Clave = "precisa"
 
         'CONEXTION VICTOR
-        Ip = "localhost"
-        Base_wms = "precisa"
-        Base_fac = "precisa"
-        Usuario = "sa"
-        Clave = "sa*2019"
+        'Ip = "localhost"
+        'Base_wms = "precisa"
+        'Base_fac = "precisa"
+        'Usuario = "sa"
+        'Clave = "sa*2019"
 
         'CONEXION EXTERNA
         'Ip = "192.168.10.150"
@@ -36,6 +36,9 @@ Public Class Conexion
         'Base_fac = "precisa_bd"
         'Usuario = "sa"
         'Clave = "Clave01*"
+
+        'PRUEBAS
+        Base_wms = "precisa_backup"
         
     End Sub
 

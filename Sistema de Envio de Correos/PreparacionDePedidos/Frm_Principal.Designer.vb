@@ -79,7 +79,7 @@ Partial Class Frm_Principal
         Me.Panel1.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(474, 152)
+        Me.Panel1.Size = New System.Drawing.Size(474, 151)
         Me.Panel1.TabIndex = 1
         '
         'PictureBox1
@@ -158,7 +158,7 @@ Partial Class Frm_Principal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(474, 152)
+        Me.ClientSize = New System.Drawing.Size(474, 151)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -166,7 +166,7 @@ Partial Class Frm_Principal
         Me.MinimumSize = New System.Drawing.Size(490, 190)
         Me.Name = "Frm_Principal"
         Me.ShowIcon = False
-        Me.Text = "Mensajería OrderBy v07.10.19.10.00"
+        Me.Text = "Mensajería OrderBy v23.10.19.09.36"
         Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)

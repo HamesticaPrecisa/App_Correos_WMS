@@ -418,7 +418,7 @@ Public Class Frm_Principal
                 CorreoPedidosWeb24Hrs("18")
 
             Case 23
-                'env.EnviarInformeTuneles(prg_cod)
+                env.EnviarInformeTuneles(prg_cod)
 
             Case 24
                 env.EnviarNotificacionInicioTunel(ipm_id)
