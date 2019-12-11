@@ -14,7 +14,7 @@ Public Module Funciones
             con.conectar()
 
             Dim Listado As SqlDataAdapter = New SqlDataAdapter(Consulta_sql, con.con)
-
+            Listado.SelectCommand.CommandTimeout = 120
             Listado.Fill(tabla)
 
             con.cerrar()

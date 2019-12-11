@@ -41,6 +41,8 @@ Public Class EnvioCorreos
     'Dim clavepedido As String = claveenvio
     'Dim estadoSSL As Boolean = False
 
+
+
     Public Function VerificaConexionInternet() As Boolean
         If My.Computer.Network.IsAvailable() Then
             Try
@@ -238,7 +240,7 @@ Public Class EnvioCorreos
             .Attachments.Add(adjunto)
 
         End With
-       
+
         Try
             Dim existe As String = "SELECT * FROM pedidos_enviados WHERE pedido='" + pedido_largo.ToString() + "'"
 
@@ -4049,4 +4051,628 @@ Public Class EnvioCorreos
         End Try
         Return ""
     End Function
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIO DEL CORREO CON EL INFORME DE ESTADO DE TUNELES
+    '
+    Public Function EnviarInformeTuneles(ByVal prg_cod As Integer) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim correo As New System.Net.Mail.MailMessage
+        Dim adjunto As System.Net.Mail.Attachment
+        Dim EnviarEmitidos As Boolean
+
+        setTestParams()
+
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        With correo
+
+            Dim sql As String = "SELECT prg_mail FROM informes_programa WHERE inf_pro_cod=" + prg_cod.ToString()
+            Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+
+
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+
+            Dim uu As String = tablaInterno.Rows(0)(0).ToString().Trim
+
+            If QuitarCaracteres(uu.ToString()).Length < uu.ToString().Length Then
+                Dim correo_electronico As String = ""
+                For i As Integer = 0 To uu.Length - 1
+                    If uu.Chars(i) <> ";" Then
+                        correo_electronico = correo_electronico + uu.Chars(i)
+                    Else
+                        .To.Add(correo_electronico)
+                        correo_electronico = ""
+                    End If
+
+                Next
+                .To.Add(correo_electronico)
+            End If
+
+            .Subject = "Estado de Túneles"
+            .IsBodyHtml = True
+            .AlternateViews.Add(BodyEstadoTuneles())
+            .BodyEncoding = System.Text.Encoding.UTF8
+
+        End With
+
+        Try
+            smtp.Send(correo)
+
+            EnviarEmitidos = True
+        Catch ex As Exception
+            If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
+
+                EnviarEmitidos = True
+            Else
+                EnviarEmitidos = False
+            End If
+        End Try
+
+        Return EnviarEmitidos
+
+    End Function
+
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIAR NOTIFICACION POR INICIO DE TUNEL
+    '
+    Public Function EnviarNotificacionInicioTunel(ByVal ipm_id As Integer) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim correo As New System.Net.Mail.MailMessage
+        Dim adjunto As System.Net.Mail.Attachment
+        Dim EnviarEmitidos As Boolean
+
+
+        setTestParams()
+
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        With correo
+
+            Dim sql As String = "SELECT b.prg_mail, a.ipm_params " +
+                                "  FROM informes_manual a " +
+                                " INNER JOIN informes_programa b ON b.inf_pro_cod = a.inf_pro_cod" +
+                                " WHERE a.ipm_id = " + ipm_id.ToString()
+            Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+            Dim cam_codi As String = tablaInterno.Rows(0)(1).ToString()
+
+
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+
+            Dim uu As String = tablaInterno.Rows(0)(0).ToString().Trim
+
+            If QuitarCaracteres(uu.ToString()).Length < uu.ToString().Length Then
+                Dim correo_electronico As String = ""
+                For i As Integer = 0 To uu.Length - 1
+                    If uu.Chars(i) <> ";" Then
+                        correo_electronico = correo_electronico + uu.Chars(i)
+                    Else
+                        .To.Add(correo_electronico)
+                        correo_electronico = ""
+                    End If
+
+                Next
+                .To.Add(correo_electronico)
+            End If
+
+            sql = "SELECT m.mtu_pallet, m.mtu_temp, " +
+                  "       r.fam_descr, r.drec_peso, r.cli_nomb, " +
+                  "       t.cam_descr, t.numpallets, t.het, m.mer_nombre," +
+                  "       LEFT(CONVERT(VARCHAR, t.ott_iniciotunel, 8),5) AS hora " +
+                  "    FROM vwTuneles t " +
+                  "   INNER JOIN vwMuestrasTunel m ON m.cam_unica = t.cam_unica " +
+                  "   INNER JOIN vwContenidoTuneles r ON r.ott_id = m.ott_id AND r.racd_codi = m.mtu_pallet " +
+                  "   WHERE t.cam_codi = '" + cam_codi + "'" +
+                  "     AND m.mtu_tipo = 1"
+            tablaInterno = ListarTablasSQL(sql)
+
+            Dim cam_descr As String = tablaInterno.Rows(0)("cam_descr").ToString().Trim()
+            Dim hora As String = tablaInterno.Rows(0)("hora").ToString()
+            Dim het As Integer = CInt(tablaInterno.Rows(0)("het"))
+            Dim NumPallets As Integer = CInt(tablaInterno.Rows(0)("numpallets"))
+            Dim html As String = String.Format("A las <big><b>{0}</b></big> se inició el proceso del túnel <big><b>{1}</b></big> " +
+                                               "con <big><b>{2}</b></big> pallets (HET: <big><b>{3}</b></big>)", hora, cam_descr, NumPallets, het)
+            html = html + "<table style='margin-top: 20px;' border='0'>" +
+                          "<tr>" +
+                          "  <th colspan='10' style='padding: 15 5 15 5;background-color: gray;color:yellow;'>MUESTRAS DE TEMPERATURA</td>" +
+                          "</tr>" +
+                          "<tr> " +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>PALLET No</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>PRODUCTO</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>KILOS</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>TEMP</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>CLIENTE</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>MERCADO</th>" +
+                          "</tr>"
+
+            For Each row As DataRow In tablaInterno.Rows
+                html = html + String.Format("<tr> " +
+                                            "  <td {6}>{0}</td>" +
+                                            "  <td {6}>{1}</td>" +
+                                            "  <td {6}>{2}</td>" +
+                                            "  <td {6}><center>{3}</center></td>" +
+                                            "  <td {6}>{4}</td>" +
+                                            "  <td {6}>{5}</td>" +
+                                            "</tr>",
+                                            row("mtu_pallet"),
+                                            row("fam_descr"),
+                                            row("drec_peso"),
+                                            row("mtu_temp"),
+                                            row("cli_nomb"),
+                                            row("mer_nombre"),
+                                            "style='padding: 5px;background-color: white;color:black;'")
+            Next
+            html = html + "</table>"
+
+            Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(html, Encoding.UTF8, MediaTypeNames.Text.Html)
+
+            .Subject = "Túnel iniciado"
+            .IsBodyHtml = True
+            .AlternateViews.Add(htmlView)
+            .BodyEncoding = System.Text.Encoding.UTF8
+
+        End With
+
+        Try
+            smtp.Send(correo)
+
+            EnviarEmitidos = True
+        Catch ex As Exception
+            If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
+
+                EnviarEmitidos = True
+            Else
+                EnviarEmitidos = False
+            End If
+        End Try
+
+        Return EnviarEmitidos
+
+    End Function
+
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIAR NOTIFICACION POR FINALIZACION DE TUNEL
+    '
+    Public Function EnviarNotificacionFinalTunel(ByVal ipm_id As Integer) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim correo As New System.Net.Mail.MailMessage
+        Dim adjunto As System.Net.Mail.Attachment
+        Dim EnviarEmitidos As Boolean
+
+        setTestParams()
+
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        With correo
+
+            Dim sql As String = "SELECT b.prg_mail, a.ipm_params " +
+                                "  FROM informes_manual a " +
+                                " INNER JOIN informes_programa b ON b.inf_pro_cod = a.inf_pro_cod" +
+                                " WHERE a.ipm_id = " + ipm_id.ToString()
+            Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+            Dim cam_codi As String = tablaInterno.Rows(0)(1).ToString()
+
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+
+            Dim uu As String = tablaInterno.Rows(0)(0).ToString().Trim
+
+            If QuitarCaracteres(uu.ToString()).Length < uu.ToString().Length Then
+                Dim correo_electronico As String = ""
+                For i As Integer = 0 To uu.Length - 1
+                    If uu.Chars(i) <> ";" Then
+                        correo_electronico = correo_electronico + uu.Chars(i)
+                    Else
+                        .To.Add(correo_electronico)
+                        correo_electronico = ""
+                    End If
+
+                Next
+                .To.Add(correo_electronico)
+            End If
+
+            sql = "SELECT m.mtu_pallet, m.mtu_temp, ca.cam_descr," +
+                  "       fp.fam_descr, dr.drec_peso, cl.cli_nomb," +
+                  "       LEFT(CONVERT(VARCHAR, o.ott_finaltunel, 8),5) AS hora, " +
+                  "       me.mer_nombre, DATEDIFF(hh, o.ott_iniciotunel, o.ott_finaltunel) AS htt" +
+                  "  FROM ots_tunel o " +
+                  " INNER JOIN muestras_tunel m ON m.ott_id = o.ott_id AND m.mtu_tipo = 2 " +
+                  " INNER JOIN fichrece fr ON fr.frec_unica = o.frec_unica " +
+                  " INNER JOIN detarece dr ON dr.frec_codi1 = fr.frec_codi AND dr.drec_codi = m.mtu_pallet " +
+                  "  LEFT JOIN famprod fp ON fp.fam_codi = LEFT(dr.drec_codpro,3) + '0000' " +
+                  " INNER JOIN clientes cl ON cl.cli_rut = fr.frec_rutcli " +
+                  " INNER JOIN mercados me ON me.mer_id = fr.mer_id " +
+                  " INNER JOIN camaras ca ON ca.cam_unica = o.cam_unica " +
+                  " WHERE o.ott_id = dbo.fnGetUltOTTunel('" + cam_codi + "')"
+            tablaInterno = ListarTablasSQL(sql)
+
+            Dim cam_descr As String = tablaInterno.Rows(0)("cam_descr").ToString().Trim()
+            Dim hora As String = tablaInterno.Rows(0)("hora").ToString()
+            Dim htt As Integer = CInt(tablaInterno.Rows(0)("htt"))
+            Dim html As String = String.Format("A las <big><b>{0}</b></big> se fializó el proceso del túnel <big><b>{1}</b></big> " +
+                                               " (HTT: <big><b>{2}</b></big>)", hora, cam_descr, htt)
+            html = html + "<table style='margin-top: 20px;' border='0'>" +
+                          "<tr>" +
+                          "  <th colspan='10' style='padding: 15 5 15 5;background-color: gray;color:yellow;'>MUESTRAS DE TEMPERATURA</td>" +
+                          "</tr>" +
+                          "<tr> " +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>PALLET No</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>PRODUCTO</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>KILOS</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>TEMP</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>CLIENTE</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>MERCADO</th>" +
+                          "</tr>"
+
+            For Each row As DataRow In tablaInterno.Rows
+                html = html + String.Format("<tr> " +
+                                            "  <td {6}>{0}</td>" +
+                                            "  <td {6}>{1}</td>" +
+                                            "  <td {6}>{2}</td>" +
+                                            "  <td {6}><center>{3}</center></td>" +
+                                            "  <td {6}>{4}</td>" +
+                                            "  <td {6}>{5}</td>" +
+                                            "</tr>",
+                                            row("mtu_pallet"),
+                                            row("fam_descr"),
+                                            row("drec_peso"),
+                                            row("mtu_temp"),
+                                            row("cli_nomb"),
+                                            row("mer_nombre"),
+                                            "style='padding: 5px;background-color: white;color:black;'")
+            Next
+            html = html + "</table>"
+
+            Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(html, Encoding.UTF8, MediaTypeNames.Text.Html)
+
+            .Subject = "Túnel finalizado"
+            .IsBodyHtml = True
+            .AlternateViews.Add(htmlView)
+            .BodyEncoding = System.Text.Encoding.UTF8
+
+        End With
+
+        Try
+            smtp.Send(correo)
+
+            EnviarEmitidos = True
+        Catch ex As Exception
+            If (ex.Message.Trim = "No se puede enviar a un destinatario.") Then
+
+                EnviarEmitidos = True
+            Else
+                EnviarEmitidos = False
+            End If
+        End Try
+
+        Return EnviarEmitidos
+
+    End Function
+
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIAR NOTIFICACION POR RECEPCION TARDIA
+    '
+    Public Function EnviarNotificacionRecepcionTardiaTunel(ByRef prog As DataRow) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim EnviarEmitidos As Boolean
+
+
+        '   
+        '       UBICAMOS LOS CASOS PENDIENTES POR
+        '       REPORTAR EN ESTE MOMENTO PARA EL 
+        '       CLIENTE ASOCIADO AL PROGRAMA
+        '
+        Dim sql As String = "SELECT frec_guiades, frec_codi, mer_nombre, fecref, mer_crifec " +
+                            "  FROM vwAlertasHPT a " +
+                            " WHERE frec_rutcli = '" + prog("prg_rut_cli").ToString().Trim() + "'"
+        Dim casos As DataTable = ListarTablasSQL(sql)
+        If casos.Rows.Count = 0 Then Return True
+
+
+        setTestParams()
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        Dim data As DataTable
+        Dim html As String
+        Dim htmlView As AlternateView
+        Dim correo As System.Net.Mail.MailMessage
+
+        For Each guia As DataRow In casos.Rows
+
+            '
+            '       OBTENEMOS EL CONTENIDO DE LA GUIA
+            '
+            sql = "SELECT fp.fam_descr, SUM(dr.drec_peso) AS drec_peso, SUM(dr.drec_unidades) AS drec_unidades, COUNT(*) AS soportantes" +
+                  "  FROM detarece dr " +
+                  "  LEFT JOIN famprod fp ON fp.fam_codi = LEFT(dr.drec_codpro,3) + '0000' " +
+                  " WHERE dr.frec_codi1 = '" + guia("frec_codi").ToString().Trim() + "'" +
+                  " GROUP BY fp.fam_descr"
+            data = ListarTablasSQL(sql)
+
+
+            ' 
+            '       PREPARAMOS EL CUERPO DEL CORREO
+            '
+            html = "Su guia <big><b>#{0}</b></big> con fecha de <big><b>{1}</b></big> del <big><b>{2}</b></big>, no podrá " +
+                   "cumplir con los requrerimientos del mercado asociado (<big><b>{3}</b></big>)."
+            html = String.Format(html, guia("frec_guiades"), guia("mer_crifec"), guia("fecref"), guia("mer_nombre"))
+            html = html + "<table style='margin-top: 20px;' border='0'>" +
+                          "<tr>" +
+                          "  <th colspan='10' style='padding: 15 5 15 5;background-color: gray;color:yellow;'>CONTENIDO DE LA GUIA</td>" +
+                          "</tr>" +
+                          "<tr> " +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>PRODUCTO</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>KILOS</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>UND</th>" +
+                          "  <th style='padding: 5px;background-color: gray;color:white;'>SOP</th>" +
+                          "</tr>"
+
+            For Each row As DataRow In data.Rows
+                html = html + String.Format("<tr> " +
+                                            "  <td {4}>{0}</td>" +
+                                            "  <td {5}>{1}</td>" +
+                                            "  <td {5}>{2}</td>" +
+                                            "  <td {5}>{3}</td>" +
+                                            "</tr>",
+                                            row("fam_descr"),
+                                            row("drec_peso"),
+                                            row("drec_unidades"),
+                                            row("soportantes"),
+                                            "style='padding: 5px;background-color: white;color:black;'",
+                                            "style='padding: 5px;background-color: white;color:black;text-align: right;'")
+            Next
+            html = html + "</table>"
+
+
+            '
+            '       LE ENVIAMOS EL CORREO AL CLIENTE Y
+            '       ACTIVAMOS UNA MARCA EN LA GUIA PARA
+            '       EVITAR ENVIAR ESTE MISMO COREO MAS
+            '       DE UNA VEZ PARA LA MISMA GUIA
+            '
+            correo = New System.Net.Mail.MailMessage()
+            htmlView = AlternateView.CreateAlternateViewFromString(html, Encoding.UTF8, MediaTypeNames.Text.Html)
+            With correo
+                .From = New System.Net.Mail.MailAddress(correomostrar)
+                .Subject = "Guia #" + guia("frec_guiades").ToString().Trim() + " se recibió fuera del limite para entrada a túnel"
+                .IsBodyHtml = True
+                .AlternateViews.Add(htmlView)
+                .BodyEncoding = System.Text.Encoding.UTF8
+            End With
+            setDestinatariosCorreo(correo, prog("cli_mail").ToString())
+
+            Try
+                smtp.Send(correo)
+                MovimientoSQL("UPDATE fichrece SET frec_mail1 = 1 WHERE frec_codi = '" + guia("frec_codi").ToString().Trim() + "'")
+
+            Catch ex As Exception
+
+            End Try
+        Next
+
+        Return True
+    End Function
+
+
+
+    '       
+    '       VES OCT 2019
+    '       ENVIAR ALERTAS POR INICIO DE TUNEL
+    '
+    Public Function EnviarAlertasInicioTunel(ByRef prog As DataRow, ByVal alerta As Integer) As Boolean
+
+        Dim smtp As New System.Net.Mail.SmtpClient
+        Dim EnviarEmitidos As Boolean
+
+
+        '   
+        '       UBICAMOS LAS GUIAS QUE ESTAN
+        '       EN LA ALERTA INDICADA Y A LAS
+        '       CUALES AUN NO SE LES ENVIA EL 
+        '       EMAIL
+        '
+        Dim sql As String = "SELECT frec_codi, cli_nomb, mer_nombre, hpt, alerta" + alerta.ToString() + " AS limAlerta" +
+                            "  FROM vwAlertasInicioTunel a " +
+                            " WHERE alerta = " + alerta.ToString() +
+                            " ORDER BY alerta DESC"
+        Dim casos As DataTable = ListarTablasSQL(sql)
+        If casos.Rows.Count = 0 Then Return True
+
+
+        setTestParams()
+        With smtp
+            .Port = puerto
+            .Host = host_mail
+            .Credentials = New System.Net.NetworkCredential(correoenvio, claveenvio)
+            .EnableSsl = estadoSSL
+        End With
+
+        Dim data As DataTable
+        Dim html As String
+        Dim htmlView As AlternateView
+        Dim correo As System.Net.Mail.MailMessage
+
+        ' 
+        '       PREPARAMOS EL CUERPO DEL CORREO
+        '
+        html = "Las siguientes guias tienen menos de <big><b>{0}</b></big> horas para iniciar su proceso de tunel:"
+        html = String.Format(html, casos.Rows(0)("limAlerta"))
+        html = html + "<table style='margin-top: 20px;' border='0'>" +
+                      "<tr> " +
+                      "  <th style='padding: 5px;background-color: gray;color:white;'>GUIA #</th>" +
+                      "  <th style='padding: 5px;background-color: gray;color:white;'>CLIENTE</th>" +
+                      "  <th style='padding: 5px;background-color: gray;color:white;'>MERCADO</th>" +
+                      "  <th style='padding: 5px;background-color: gray;color:white;'>HPT</th>" +
+                      "</tr>"
+
+        For Each row As DataRow In casos.Rows
+            html = html + String.Format("<tr> " +
+                                        "  <td {4}>{0}</td>" +
+                                        "  <td {4}>{1}</td>" +
+                                        "  <td {4}>{2}</td>" +
+                                        "  <td {5}>{3}</td>" +
+                                        "</tr>",
+                                        row("frec_codi"),
+                                        row("cli_nomb"),
+                                        row("mer_nombre"),
+                                        row("hpt"),
+                                        "style='padding: 5px;background-color: white;color:black;'",
+                                        "style='padding: 5px;background-color: white;color:black;text-align: right;'")
+        Next
+        html = html + "</table>"
+
+
+        '
+        '       ENVIAMOS EL CORREO A LA LISTA
+        '       DE DESTINATARIOS DEL PROGRAMA
+        '
+        correo = New System.Net.Mail.MailMessage()
+        htmlView = AlternateView.CreateAlternateViewFromString(html, Encoding.UTF8, MediaTypeNames.Text.Html)
+        With correo
+            .From = New System.Net.Mail.MailAddress(correomostrar)
+            .Subject = IIf(alerta = 1, "Primera alerta de inicio de túnel",
+                       IIf(alerta = 2, "Segunda alerta de inicio de túnel",
+                                       "Tercera alerta de inicio de túnel"))
+            .IsBodyHtml = True
+            .AlternateViews.Add(htmlView)
+            .BodyEncoding = System.Text.Encoding.UTF8
+        End With
+        setDestinatariosCorreo(correo, prog("prg_mail").ToString())
+
+        Try
+            smtp.Send(correo)
+            For Each row As DataRow In casos.Rows
+                MovimientoSQL("UPDATE fichrece SET frec_mail" + (alerta + 1).ToString() + "= 1 WHERE frec_codi = '" + row("frec_codi").ToString().Trim() + "'")
+            Next
+
+        Catch ex As Exception
+
+        End Try
+
+
+        Return True
+    End Function
+
+
+    '
+    '       VES OCT 2019
+    '       PERMITE ASIGNAR LA LISTA DE DESTINATARIOS
+    '       PARA UN CORREO A ENVIAR
+    '
+    Private Sub setDestinatariosCorreo(ByRef mail As System.Net.Mail.MailMessage, ByVal destinatarios As String)
+        QuitarCaracteres(destinatarios)
+        Dim correo_electronico As String = ""
+        For i As Integer = 0 To destinatarios.Length - 1
+            If destinatarios.Chars(i) <> ";" Then
+                correo_electronico = correo_electronico + destinatarios.Chars(i)
+            Else
+                mail.To.Add(correo_electronico)
+                correo_electronico = ""
+            End If
+
+        Next
+        mail.To.Add(correo_electronico)
+    End Sub
+    Private Sub setDestinatariosCorreo(ByRef mail As System.Net.Mail.MailMessage, ByVal prg_cod As Integer)
+        Dim sql As String = "SELECT prg_mail FROM informes_programa WHERE inf_pro_cod=" + prg_cod.ToString()
+        Dim tablaInterno As DataTable = ListarTablasSQL(sql)
+        setDestinatariosCorreo(mail, tablaInterno.Rows(0)(0).ToString().Trim())
+    End Sub
+    '
+    '       VES OCT 2019
+    '       CORREO DE ESTADO DE TUNELES
+    '
+    Private Function BodyEstadoTuneles() As AlternateView
+
+        Dim archivo As String = ArchivoAString(Application.StartupPath + "\EstadoTuneles1.txt")
+        Dim hora As String = ""
+        Dim fecha As String = ""
+        Dim observacion As String = ""
+        Dim transporte As String = ""
+        Dim destino As String = ""
+        Dim datos As String = "SELECT cam_descr, informeTuneles, estado FROM Tuneles1 WHERE cam_tipo = 2 ORDER BY cam_codi"
+        Dim tablaDatos As DataTable = ListarTablasSQL(datos)
+
+        Dim html = "<h1>ESTADO DE TUNELES</h1>" +
+                        "<div id='tuneles'><div>" +
+                        "<table border='0'>" +
+                        "<tr>" +
+                        "<th style='padding: 5px;background-color: gray;color:black;'>Tunel</th>" +
+                        "<th style='padding: 5px;background-color: gray;color:black;'>Estado</th>" +
+                        "</tr>"
+
+        Dim bgcolor As String = "white"
+        Dim fgcolor As String = "black"
+        For Each row As DataRow In tablaDatos.Rows
+            bgcolor = "white"
+            fgcolor = "black"
+            If CInt(row("estado")) > 400 Then
+                bgcolor = "red"
+                fgcolor = "yellow"
+            End If
+
+
+            html = html + "<tr>" +
+                            "<td style='padding: 10px;background-color: " + bgcolor + ";color:" + fgcolor + ";'>" + row("cam_descr") + "</td>" +
+                            "<td style='padding: 10px;background-color: " + bgcolor + ";color:" + fgcolor + ";'>" + row("informeTuneles") + "</td>" +
+                          "</tr>"
+        Next
+        html = html + "</table>"
+
+        Dim archivo2 As String = ArchivoAString(Application.StartupPath + "\EstadoTuneles2.txt")
+
+        archivo = archivo + html + archivo2
+
+        Dim htmlView As AlternateView = AlternateView.CreateAlternateViewFromString(archivo, Encoding.UTF8, MediaTypeNames.Text.Html)
+        Dim cabecera As LinkedResource = New LinkedResource(Application.StartupPath + "\EstadoTuneles.jpg", MediaTypeNames.Image.Jpeg)
+        cabecera.ContentId = "titulo"
+
+        htmlView.LinkedResources.Add(cabecera)
+
+        Return htmlView
+
+    End Function
+
+
+    Private Sub setTestParams()
+        puerto = 25
+        host_mail = "mail.noiqs.com"
+        correoenvio = "vespina@noiqs.com"
+        claveenvio = "Randal.01"
+        estadoSSL = False
+    End Sub
 End Class

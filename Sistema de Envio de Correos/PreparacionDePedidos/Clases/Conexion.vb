@@ -22,6 +22,13 @@ Public Class Conexion
         Usuario = "sa"
         Clave = "precisa"
 
+        'CONEXTION VICTOR
+        'Ip = "localhost"
+        'Base_wms = "precisa"
+        'Base_fac = "precisa"
+        'Usuario = "sa"
+        'Clave = "sa*2019"
+
         'CONEXION EXTERNA
         'Ip = "192.168.10.150"
         'Ip = "186.64.109.246"
@@ -29,12 +36,15 @@ Public Class Conexion
         'Base_fac = "precisa_bd"
         'Usuario = "sa"
         'Clave = "Clave01*"
+
+        'PRUEBAS
+        'Base_wms = "precisa_backup"
         
     End Sub
 
     Sub conectar()
         conexion()
-        Dim cadena As String = "Data Source=" & Ip & "; initial catalog=" & Base_wms & "; USER=" & Usuario & "; PWD=" & Clave & ";"
+        Dim cadena As String = "Data Source=" & Ip & "; initial catalog=" & Base_wms & "; USER=" & Usuario & "; PWD=" & Clave & ";timeout=100;"
         Try
             If con.State = 0 Then
 
