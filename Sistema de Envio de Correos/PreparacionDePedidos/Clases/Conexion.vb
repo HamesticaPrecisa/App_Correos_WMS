@@ -38,7 +38,7 @@ Public Class Conexion
         'Clave = "Clave01*"
 
         'PRUEBAS
-        Base_wms = "precisa_backup"
+        'Base_wms = "precisa_backup"
         
     End Sub
 

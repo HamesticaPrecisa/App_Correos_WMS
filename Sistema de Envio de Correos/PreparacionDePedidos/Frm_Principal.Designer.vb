@@ -166,7 +166,7 @@ Partial Class Frm_Principal
         Me.MinimumSize = New System.Drawing.Size(490, 190)
         Me.Name = "Frm_Principal"
         Me.ShowIcon = False
-        Me.Text = "Mensajería OrderBy v23.10.19.09.36"
+        Me.Text = "Mensajería OrderBy v27.11.19.13.23"
         Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
