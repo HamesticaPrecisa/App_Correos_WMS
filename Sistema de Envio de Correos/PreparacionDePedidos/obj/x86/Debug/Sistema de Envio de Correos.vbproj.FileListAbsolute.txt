@@ -566,3 +566,9 @@ Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDeP
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.exe.config
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Interop.MediaPlayer.dll
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbproj.ResolveComReference.cache
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.xml
+C:\Users\WEBMASTER\Documents\GitHub\Correos_WMS\App_Correos_WMS\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.pdb
