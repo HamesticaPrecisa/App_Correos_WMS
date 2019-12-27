@@ -371,9 +371,14 @@ Public Class Frm_Principal
     Private Sub procesarInforme(ByRef prog As DataRow, ByVal ipm_id As Integer, ByVal ipm_params As String)
         Dim inf_cod As Integer = CInt(prog("prg_inf_cod"))
         Dim prg_cod As Integer = CInt(prog("inf_pro_cod"))
+        env.setTestParams()
 
         Select Case inf_cod
             Case 22
+                '   VES DIC 2019
+                '   ESTE INFORME ES ESPECIAL.  NO SE GENERA POR PROGRAMACION NORMAL SINO
+                '   QUE SE EJECUTA CADA VEZ, BUSCANDO RECEPCIONES, DESPACHOS O CHECKLIST
+                '   PENDIENTES POR PROCESAR.
                 env.EnviarCorreoStockComercialAgrosuper()
 
             Case 12
@@ -711,7 +716,7 @@ Public Class Frm_Principal
         For i As Integer = 0 To tabla.Rows.Count - 1
             If comprobarCorreos(ca, ta, co, tabla.Rows(i)(1).ToString()) = True Then
                 env.EnviarCorreoPedidoWeb(tabla.Rows(i)(0).ToString(), tabla.Rows(i)(1).ToString(), inf_cod)
-            End If
+                End If
         Next
     End Sub
     '***********************************

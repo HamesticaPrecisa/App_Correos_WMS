@@ -566,3 +566,4 @@ Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDeP
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\bin\Debug\SistemaEnvioCorreos.xml
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.exe.manifest
 Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\SistemaEnvioCorreos.application
+Z:\Work\Fuentes\NOI\DEV\ptech\correos\Sistema de Envio de Correos\PreparacionDePedidos\obj\x86\Debug\Sistema de Envio de Correos.vbprojResolveAssemblyReference.cache

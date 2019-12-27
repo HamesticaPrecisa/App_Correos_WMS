@@ -4624,7 +4624,7 @@ Public Class EnvioCorreos
         Dim observacion As String = ""
         Dim transporte As String = ""
         Dim destino As String = ""
-        Dim datos As String = "SELECT cam_descr, informeTuneles, estado FROM Tuneles1 WHERE cam_tipo = 2 ORDER BY cam_codi"
+        Dim datos As String = "SELECT cam_descr, informeTuneles, estado FROM vwTuneles WHERE cam_tipo = 2 ORDER BY cam_codi"
         Dim tablaDatos As DataTable = ListarTablasSQL(datos)
 
         Dim html = "<h1>ESTADO DE TUNELES</h1>" +
@@ -4668,7 +4668,7 @@ Public Class EnvioCorreos
     End Function
 
 
-    Private Sub setTestParams()
+    Public Sub setTestParams()
         puerto = 25
         host_mail = "mail.noiqs.com"
         correoenvio = "vespina@noiqs.com"
